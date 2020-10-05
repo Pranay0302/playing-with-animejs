@@ -1,0 +1,19 @@
+{
+  "name": "playing-with-animejs",
+  "version": "1.0.0",
+  "description": "trying out some cool stuff with animejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranay0302/playing-with-animejs.git"
+  },
+  "author": "Pranay Kumar Andra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranay0302/playing-with-animejs/issues"
+  },
+  "homepage": "https://github.com/Pranay0302/playing-with-animejs#readme"
+}
