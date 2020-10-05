@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pranay0302/playing-with-animejs/issues"
   },
-  "homepage": "https://github.com/Pranay0302/playing-with-animejs#readme"
+  "homepage": "https://github.com/Pranay0302/playing-with-animejs#readme",
+  "dependencies": {
+    "animejs": "^3.2.0"
+  }
 }
