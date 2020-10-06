@@ -9,7 +9,6 @@ anime({
         duration: 1000,
         easing: 'easeInOutSine'
     },
-
     borderRadius: ['0%', '50%'],
     easing: 'easeInOutQuad',
     direction: 'alternate',
@@ -33,3 +32,33 @@ anime({
     duration: 2000,
     loop: true
 })
+
+anime({
+    targets: '.button',
+    translateX: {
+        value: '500',
+    },
+    rotate: {
+        value: '2turn',
+        duration: 2000,
+        easing: 'easeInOutSine'
+    },
+    direction: 'alternate',
+    easing: 'easeInOutQuad',
+    duration: 2000,
+    endDelay: 1000,
+    loop: true
+})
+
+anime({
+        targets: '.intro',
+        translateX: {
+            value: '500',
+        },
+        direction: 'alternate',
+        easing: 'easeInOutQuad',
+        duration: 2000,
+        endDelay: 1000,
+        loop: true
+    })
+    // will be adding more animations

@@ -20,3 +20,22 @@
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.button {
+    background-color: #3c99c8;
+    border: 1px solid #e6e6e8;
+    border-radius: 18px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+body {
+    background-color: azure;
+}
