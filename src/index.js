@@ -1,5 +1,10 @@
-console.log("checking..")
+// will be adding more animations
 
+console.log("%c checking..", 'color: yellow')
+
+const TRACE = () => {
+    console.trace('just checking')
+}
 
 anime({
     targets: 'div.box.small',
@@ -33,6 +38,9 @@ anime({
     loop: true
 })
 
+TRACE();
+
+
 anime({
     targets: '.button',
     translateX: {
@@ -51,14 +59,13 @@ anime({
 })
 
 anime({
-        targets: '.intro',
-        translateX: {
-            value: '500',
-        },
-        direction: 'alternate',
-        easing: 'easeInOutQuad',
-        duration: 2000,
-        endDelay: 1000,
-        loop: true
-    })
-    // will be adding more animations
+    targets: '.intro',
+    translateX: {
+        value: '500',
+    },
+    direction: 'alternate',
+    easing: 'easeInOutQuad',
+    duration: 2000,
+    endDelay: 1000,
+    loop: true
+})
